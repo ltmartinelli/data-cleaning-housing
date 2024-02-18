@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS nashville_housing
+(
+    uniqueid integer NOT NULL,
+    parcelid character varying(50) NOT NULL,
+    landuse character varying(50),
+    propertyaddress character varying(50),
+    saledate date NOT NULL,
+    saleprice character varying(50) NOT NULL,
+    legalreference character varying(50) NOT NULL,
+    soldasvacant character varying(10) NOT NULL,
+    ownername character varying(200),
+    owneraddress character varying(50),
+    acreage double precision,
+    taxdistrict character varying(50),
+    landvalue integer,
+    buildingvalue integer,
+    totalvalue integer,
+    yearbuilt integer,
+    bedrooms integer,
+    fullbath integer,
+    halfbath integer,
+)
